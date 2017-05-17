@@ -1,7 +1,7 @@
 {
   "name": "J Mills",
   "version": "1.0.0",
-  "description": "Determines if J Mills in Saline",
+  "description": "Don't contact me unless you're Sarah Chu",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
