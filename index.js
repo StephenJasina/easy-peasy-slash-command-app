@@ -68,7 +68,7 @@ controller.on('slash_command', function (slashCommand, message) {
 
             break;*/
         case "/whereisjmills":
-            slashCommand.replyPublic(message, "J Mills is not in Saline");
+            slashCommand.replyPublic(message, "I'm not in Saline");
             return;
         default:
             slashCommand.replyPublic(message, "I'm afraid I don't know how to " + message.command + " yet.");
