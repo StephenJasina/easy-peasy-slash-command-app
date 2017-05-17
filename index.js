@@ -110,6 +110,8 @@ controller.on('slash_command', function (slashCommand, message) {
             });
 
             break;
+        case "/whereisjmills":
+            slashCommand.replyPublic(message, "I don't really know");
         default:
             slashCommand.replyPublic(message, "I'm afraid I don't know how to " + message.command + " yet.");
 
